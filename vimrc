@@ -1,3 +1,6 @@
+"Specific configs added by mikeverbeck
+let mapleader=","
+
 "avoiding annoying CSApprox warning message
 let g:CSApprox_verbose_level = 0
 
@@ -24,7 +27,7 @@ set showmode    "show current mode down the bottom
 set incsearch   "find the next match as we type the search
 set hlsearch    "hilight searches by default
 
-set number      "add line numbers
+"set number      "add line numbers
 set showbreak=...
 set wrap linebreak nolist
 
