@@ -1,5 +1,9 @@
 "Specific configs added by mikeverbeck
 let mapleader=","
+:colorscheme railscasts2
+"command Nt execute ":NERDTreeToggle|:NERDTreeMirror"
+command Nt execute ":NERDTreeTabsToggle"
+command NT execute ":NERDTree"
 
 "avoiding annoying CSApprox warning message
 let g:CSApprox_verbose_level = 0
@@ -241,7 +245,8 @@ if has("gui_running")
     endif
 
     if has("gui_mac") || has("gui_macvim")
-        set guifont=Menlo:h14
+        "set guifont=Menlo:h14
+        set guifont=Monaco:h14
         " key binding for Command-T to behave properly
         " uncomment to replace the Mac Command-T key to Command-T plugin
         "macmenu &File.New\ Tab key=<nop>
