@@ -4,6 +4,7 @@ let mapleader=","
 "command Nt execute ":NERDTreeToggle|:NERDTreeMirror"
 command Nt execute ":NERDTreeTabsToggle"
 command NT execute ":NERDTree"
+set clipboard=unnamed
 
 "avoiding annoying CSApprox warning message
 let g:CSApprox_verbose_level = 0
@@ -219,8 +220,8 @@ filetype indent on
 syntax on
 
 "some stuff to get the mouse going in term
-set mouse=a
-set ttymouse=xterm2
+"set mouse=a
+"set ttymouse=xterm2
 
 "hide buffers when not displayed
 set hidden
